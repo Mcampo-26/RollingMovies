@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-.error_404 {
-    margin-top: 6em !important;
-    margin-bottom: 2em !important;
+.error404 {
+    margin-top: 2em;
+    max-width: 50%;
+    max-height: 50%;
 }
