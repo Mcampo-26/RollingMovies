@@ -8,7 +8,7 @@ function footer(){
     <div class="container ">
         <div class="footer-row ">
             <div class="footer-links">
-                <h4>Compañia</h4>
+                <h4>Compaia</h4>
                 <ul>
                     <li><a href="error404.html"target="_blank"> Nosotros</a></li>
                     <li><a href="error404.html"target="_blank"> Nuestros Servicios</a></li>
@@ -69,7 +69,9 @@ body {
 }
 
 .footer {
-    background-color:dark;
+    background-color:dark;    
+    
+   
 }
 
 .footer-row {

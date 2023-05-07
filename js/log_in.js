@@ -38,6 +38,7 @@ function logearUsuario(){
     
 
      for (let i = 0; i < datosNewUsers.length; i++) {
+        console.log("entre al for normal"); /* borrar */
         if (datosNewUsers[i].newEmail === newEmail && datosNewUsers[i].newPassword === newPassword) {
             Swal.fire(
                 'Registro Exitoso',
