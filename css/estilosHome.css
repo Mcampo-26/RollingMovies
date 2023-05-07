@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+h4 {
+    font-size: 1.1em !important;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+.caption {
+    margin-top: -4.5em;
+}
+
+.carusel-responsive {
+    display: block;
+    max-width: 100% !important;
+    margin-right: 5em;
+}
+
+.img-carousel {
+    max-width: 140%;
+    width: 23em!important;
+    height: 10em !important;
+}
+
+.icon-tv {
+    position: relative;
+    width: 30px !important;
+    height: 25px!important;
+    bottom: 1.5em !important;
+    left: 20em!important;
+    background-color: black !important;
+}
+
+.texto-Series {
+    color: rgb(246, 240, 240) !important;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.texto-Pelis {
+    color: aliceblue;
+    margin-left: 0.5em;
+    margin-top: 3em;
+}
+
+.card-title {
+    max-width: 100%;
+    font-size: 1.2em;
+}
+
+.card-text {
+    max-width: 100%;
+    font-size: 0.7em;
+    font-family: sans-serif
+}
+
+.contenedor-card {
+    max-width: 100%;
+    padding: 1em !important;
+}
+
+.card {
+    max-width: 100%;
+    max-height: 100%;
+    width: 12em;
+    height: 25em;
+    margin-top: 5%;
+}
+
+.card-crud {
+    max-width: 100%;
+    width: 15!important;
+    margin-left: -0.1em !important;
+}
+
+.img-card-crud {
+    max-width: 100%;
+    width: 11.8em !important;
+    height: 19em !important;
+}
+
+body {
+    width: 133em;
+    margin-left: 3em;
+}
+
+.Fotos-Pelis {
+    margin-left: 15em;
+}
+
+.card-body {
+    background-color: black;
+}
+
+.card:hover {
+    box-shadow: 6px 14px 16px 0px rgba(0, 0, 0, 0.75);
+    transition: all 400ms ease;
+    transform: translateY(-2%);
+}
+
+.banner img {
+    width: 35em !important;
+    height: 9em;
+    border-radius: 10px;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(450px);
+    }
+    100% {
+        transform: translateX(50px);
+    }
+}
+
+.banner-animated {
+    animation-name: move;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.hr_class {
+    margin-top: 1em!;
+    border-top: 5px solid #7e7979;
+}
+
+@media (max-width: 770px) {
+    .carusel-responsive {
+        margin-left: 8em;
+    }
+}
+
+@media (max-width: 496px) {
+    .carusel-responsive {
+        margin-left: 5em;
+    }
+}
+
+@media (min-width: 576px) {
+    .pelis-col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .pelis-col {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+@media (max-width: 562px) {
+    .pelis-col {
+        margin-left: 5em;
+    }
+}
