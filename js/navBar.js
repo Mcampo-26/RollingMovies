@@ -68,17 +68,5 @@ function navBar() {
   navBar.innerHTML += navBarContenido;
 }
 
-function Navbar() {
-  const navbarCollapse = document.querySelector('.navbar-collapse');
-  navbarCollapse.classList.toggle('show');
-  navOpen = !navOpen;
-}
 
-function closeNavbar() {
-  if (navOpen) {
-    Navbar();
-  }
-}
-
-navBar();
 
