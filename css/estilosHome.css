@@ -113,23 +113,24 @@ body {
     width: 35em !important;
     height: 9em;
     border-radius: 10px;
+    padding-right: 5em !important;
 }
 
 @keyframes move {
     0% {
-        transform: translateX(0);
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(450px);
+        transform: translateX(100px);
     }
     100% {
-        transform: translateX(50px);
+        transform: translateX(0px);
     }
 }
 
 .banner-animated {
     animation-name: move;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
