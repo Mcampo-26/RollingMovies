@@ -110,6 +110,32 @@ body {
     transform: translateY(-2%);
 }
 
+.banner img {
+    width: 35em !important;
+    height: 9em;
+    border-radius: 10px;
+    padding-right: 5em !important;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.banner-animated {
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 .hr_class {
     margin-top: 1em!;
     border-top: 5px solid #7e7979;
