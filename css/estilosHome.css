@@ -22,11 +22,12 @@ p {
 
 .carusel-responsive {
     display: block;
-    max-width: 100% !important;
+    max-width: 140% !important;
     margin-right: 5em;
 }
 
 .img-carousel {
+    display: block !important;
     max-width: 140%;
     width: 23em!important;
     height: 10em !important;
@@ -142,13 +143,13 @@ body {
 
 @media (max-width: 770px) {
     .carusel-responsive {
-        margin-left: 8em;
+        margin-left: 2em !important;
     }
 }
 
-@media (max-width: 496px) {
+@media (min-width: 766x) {
     .carusel-responsive {
-        margin-left: 5em;
+        margin-left: 10em !important;
     }
 }
 
@@ -176,5 +177,54 @@ body {
 @media (max-width: 562px) {
     .pelis-col {
         margin-left: 5em;
+    }
+}
+
+.banner {
+    position: relative;
+    max-width: 100%;
+    ;
+}
+
+.banner-img {
+    display: block;
+    max-width: 100% !important;
+    height: auto;
+    justify-content: center;
+}
+
+.banner-animated {
+    display: flex;
+    justify-content: center;
+}
+
+.banner-animated-container {
+    position: absolute;
+    top: 50%;
+}
+
+.banner-animated {
+    animation-name: move;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-20%);
+    }
+    100% {
+        transform: translateX(18%);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-img {
+        max-width: 50%;
+        margin: 0 auto;
     }
 }
