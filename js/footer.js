@@ -8,11 +8,7 @@ function footer(){
     <div class="container ">
         <div class="footer-row ">
             <div class="footer-links">
-<<<<<<< HEAD
                 <h4>Compañia</h4>
-=======
-                <h4>Compaia</h4>
->>>>>>> origin/master
                 <ul>
                     <li><a href="error404.html"target="_blank"> Nosotros</a></li>
                     <li><a href="error404.html"target="_blank"> Nuestros Servicios</a></li>
@@ -73,13 +69,7 @@ body {
 }
 
 .footer {
-<<<<<<< HEAD
-    background-color:dark;
-=======
-    background-color:dark;    
-    
-   
->>>>>>> origin/master
+    background-color: #333
 }
 
 .footer-row {
@@ -111,11 +101,15 @@ body {
     transition: all .3s ease;
 }
 
-.footer-links ul li a:hover {
-    color: beige;
+.footer-links ul  li:hover a {
+    color: beige !important;
     padding-left: 6px;
 }
 
+.social-link a:hover {
+    background-color: beige;
+    color:rgb(40, 179, 204);
+  }
 .social-link a {
     display: inline-block;
     min-height: 40px;
