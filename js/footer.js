@@ -101,7 +101,7 @@ body {
     transition: all .3s ease;
 }
 
-.footer-links ul fab li:hover a {
+.footer-links ul li:hover a {
     color: beige !important;
     padding-left: 6px;
 }
