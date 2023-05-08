@@ -22,7 +22,7 @@ p {
 
 .carusel-responsive {
     display: block;
-    max-width: 140% !important;
+    max-width: 100% !important;
     margin-right: 5em;
 }
 
