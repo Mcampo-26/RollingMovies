@@ -15,8 +15,8 @@ body {
     display: flex;
     flex-direction: column;
     padding: 60px 68px 40px;
-    margin-bottom: 2em;
-    margin-top: 6em;
+    margin-bottom: 5em !important;
+    margin-top: 1em !important;
     min-height: 20em;
 }
 
