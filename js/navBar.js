@@ -26,7 +26,7 @@ function navBar() {
               <a class="nav-link" href="Contacto.html">Contact</a>
             </li>
             <li class="nav-item mr-3">
-              <a class="nav-link" href="login.html" >Log in</a>
+              <a class="nav-link" href="login_1.html" >Log in</a>
             </li>
             <li class="nav-item mr-3">
               <a class="nav-link" href="sign_in.html">Sign In</a>
