@@ -69,9 +69,7 @@ body {
 }
 
 .footer {
-    background-color:dark;    
-    
-   
+    background-color:dark;
 }
 
 .footer-row {
