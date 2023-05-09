@@ -34,7 +34,7 @@ function navBar() {
               </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" href="login_1.html">Log In</a>
-              </li>
+              </li>git add
               <li class="nav-item mr-3">
                 <a class="nav-link" href="sign_in.html">Sign In</a>
               </li>
