@@ -33,22 +33,40 @@ function logearUsuario(){
         setTimeout(function() {
             redirigiAdmin();
         }, 3000);
+
+        let numero = [2];
+        let arrayBandera = localStorage.removeItem("arrayBanderaKey");
+
+        arrayBandera = JSON.parse(localStorage.getItem("arrayBanderaKey")) || [];
+        arrayBandera.push(numero);
+        localStorage.setItem("arrayBanderaKey", JSON.stringify(arrayBandera));
+        console.log(arrayBandera);
+        
         return;
     }
+
     
 
      for (let i = 0; i < datosNewUsers.length; i++) {
-        console.log("entre al for normal"); /* borrar */
         if (datosNewUsers[i].newEmail === newEmail && datosNewUsers[i].newPassword === newPassword) {
             Swal.fire(
                 'Registro Exitoso',
-                'Ingresando a tu cuenta de Netflix',
+                'Ingresando a tu cuenta de Rolling Movies',
                 'success'
             );
             setTimeout(function() {
                 redirigirUsuario();
             }, 3000);
+
+            let numero = [1];
+            let arrayBandera = localStorage.removeItem("arrayBanderaKey");
+
+            arrayBandera = JSON.parse(localStorage.getItem("arrayBanderaKey")) || [];
+            arrayBandera.push(numero);
+            localStorage.setItem("arrayBanderaKey", JSON.stringify(arrayBandera));
+            console.log(arrayBandera);
             return;
+
         }else{
             Swal.fire({
                 icon: 'error',
