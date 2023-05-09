@@ -304,7 +304,7 @@ function logOut(){
   localStorage.setItem("arrayBanderaKey", JSON.stringify(arrayBandera));
   console.log(arrayBandera);
 
-  window.location.href = 'index.html';
+  window.location.href = 'index_1.html';
 }
 
 function cartelDebeIniciarSesion(){
