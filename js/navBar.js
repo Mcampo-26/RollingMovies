@@ -33,7 +33,7 @@ function navBar() {
                 <a class="nav-link" href="aboutUs.html">About Us</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="log_in.html">Log In</a>
+                <a class="nav-link" href="login_1.html">Log In</a>
               </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" href="sign_in.html">Sign In</a>
@@ -53,7 +53,7 @@ function navBar() {
         .navbar-brand {
           max-height: 2.2em;
           margin-top: 0.2em;
-          padding-left: 1.1em;
+          padding-left: 1.2em;
         }
   
         .nav-link {
