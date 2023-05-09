@@ -11,7 +11,7 @@ function navBar() {
     let navBarContenido = `
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-          <a href="index.html"><img class="navbar-brand" src="./img/30-removebg-preview.png" alt="Rolling-Movies"></a>
+          <a href="index_2.html"><img class="navbar-brand" src="./img/30-removebg-preview.png" alt="Rolling-Movies"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="${navOpen}" aria-label="Toggle navigation" id="navbar-toggler" onclick="Navbar()">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -81,7 +81,7 @@ function navBar() {
     let navBarContenido = `
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-          <a href="index.html"><img class="navbar-brand" src="./img/30-removebg-preview.png" alt="Rolling-Movies"></a>
+          <a href="index_2.html"><img class="navbar-brand" src="./img/30-removebg-preview.png" alt="Rolling-Movies"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="${navOpen}" aria-label="Toggle navigation" id="navbar-toggler" onclick="Navbar()">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -151,7 +151,7 @@ function navBar() {
     let navBarContenido = `
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-          <a href="index.html"><img class="navbar-brand" src="./img/30-removebg-preview.png" alt="Rolling-Movies"></a>
+          <a href="index_2.html"><img class="navbar-brand" src="./img/30-removebg-preview.png" alt="Rolling-Movies"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="${navOpen}" aria-label="Toggle navigation" id="navbar-toggler" onclick="Navbar()">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -220,7 +220,7 @@ function navBar() {
     let navBarContenido = `
       <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-          <a href="index.html"><img class="navbar-brand" src="./img/30-removebg-preview.png" alt="Rolling-Movies"></a>
+          <a href="index_2.html"><img class="navbar-brand" src="./img/30-removebg-preview.png" alt="Rolling-Movies"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="${navOpen}" aria-label="Toggle navigation" id="navbar-toggler" onclick="Navbar()">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -304,7 +304,7 @@ function logOut(){
   localStorage.setItem("arrayBanderaKey", JSON.stringify(arrayBandera));
   console.log(arrayBandera);
 
-  window.location.href = 'index_1.html';
+  window.location.href = 'index_2.html';
 }
 
 function cartelDebeIniciarSesion(){
