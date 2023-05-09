@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.agregar {
+    width: 6em !important;
+    height: 3em !important;
+    font-size: 1.2em;
+}
+
+.admin_main {
+    max-width: 100%;
+    margin-top: 2em;
+    text-align: start;
+}
+
+@media (max-width: 982px) {
+    .admin_main {
+        text-align: center;
+        font-size: 1.8em !important;
+        margin-top: 6em !important;
+    }
+}
+
+.admin-series-peliculas {
+    padding-top: 1.5em;
+    color: #b7bae6;
+}
+
+.agregar {
+    width: 5em;
+    height: 2em;
+    background-color: rgb(160, 198, 192);
+}
+
+.Letra-agregar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.Titulo {
+    background-color: rgb(137, 137, 205);
+    background: linear-gradient(0deg, rgba(137, 137, 205, 0.3281512434075192) 0%, rgba(71, 79, 96, 0.5326330361246061) 72%);
+    border-radius: 0.09em;
+    height: 1.3em;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #d2c6c6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #b7bae6;
+}
+
+.editar-pelis {
+    background-color: #3c898d;
+    color: rgb(255, 255, 255);
+}
+
+.borrar-pelis {
+    background-color: #ec466d;
+    color: rgb(255, 255, 255);
+}

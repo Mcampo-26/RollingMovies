@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/estilosHome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/e8f8c69e4a.js" crossorigin="anonymous"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/admin.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/navbar.js" defer></script>
+    <script src="./js/footer.js" defer></script>
+</head>
+
+<header>
+    <header>
+        <div id="navBarIdem"></div>
+    </header>
+</header>
+
+<body class="bg-black container "></body>
+
+<section>
+    <!--Ultimas peliculas  "> -->
+    <h1 class="text-light texto-Pelis "><b>Estrenos Destacados en HD</b></h1>
+    <div class=" mt-4 ">
+        <div class="row">
+            <div class="pelis-col col-sm-6 col-md-3 col-lg-2">
+                <div class="card pelis-img">
+                    <a href="error404.html" target="_blank"><img class="card-img-top" src="https://image.tmdb.org/t/p/w185/9mcdazJrMfL9oW3X3XaDkju22po.jpg" alt="Shazam"></a>
+                    <div class="card-body bg-black">
+                        <h5 class="card-title text-light ">Shazam</h5>
+                        <p class="card-text text-light"> Nov. 11, 2022</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pelis-col col-sm-6 col-md-3 col-lg-2">
+                <div class="card ">
+                    <a href="error404.html" target="_blank"><img class="card-img-top  pelis-img-1" src="https://image.tmdb.org/t/p/w185/w1CviNrfYjtPDN6UTIUcqCe3WfN.jpg" alt="Misterio a la Vista"></a>
+                    <div class="card-body bg-black">
+                        <h5 class="card-title text-light">Misterio </h5>
+                        <p class="card-text text-light">Dec. 09, 2022</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="pelis-col col-sm-6 col-md-3 col-lg-2">
+                <div class="card pelis-img">
+                    <a href="error404.html" target="_blank"><img class="card-img-top" src="https://image.tmdb.org/t/p/w185/4F2QwCOYHJJjecSvdOjStuVLkpu.jpg" alt="Tetris"></a>
+                    <div class="card-body bg-black">
+                        <h5 class="card-title text-light">Tetris</h5>
+                        <p class="card-text text-light">Mar. 15, 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pelis-col col-sm-6 col-md-3 col-lg-2">
+                <div class="card pelis-img">
+                    <a href="error404.html" target="_blank"><img class="card-img-top" src="https://image.tmdb.org/t/p/w185/hTgaFqPz6hVScdfYGcso2jg9h5L.jpg" alt="Boksoon debe morir"></a>
+                    <div class="card-body bg-black">
+                        <h5 class="card-title text-light">Bokson </h5>
+                        <p class="card-text text-light">Feb. 17, 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pelis-col col-sm-6 col-md-3 col-lg-2">
+                <div class="card pelis-img">
+                    <a href="error404.html" target="_blank"><img class="card-img-top" src="https://image.tmdb.org/t/p/w185/6toz74j1OgbQrsZUjgr2Ohs1AsE.jpg" alt="Una buena persona"></a>
+                    <div class="card-body bg-black">
+                        <h5 class="card-title text-light">Buena persona</h5>
+                        <p class="card-text text-light">Mar. 23, 2023</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pelis-col col-sm-6 col-md-3 col-lg-2">
+                <div class="card pelis-img">
+                    <a href="error404.html" target="_blank"><img class="card-img-top" src="https://image.tmdb.org/t/p/w185/irhIdN4KDOdmTXpplSAwCGZYDSL.jpg" alt="La Ballena"></a>
+                    <div class="card-body bg-black">
+                        <h5 class="card-title text-light">La Ballena</h5>
+                        <p class="card-text text-light">Dec. 09, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<hr class="hr_class">
+<section id="idSeries" class="mt-4">
+    <h2 class="texto-Series fs-1"><b>Nuevas Series Destacadas</b></h2>
+    <article>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-interval="3500">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="carusel-responsive col col-sm-12 col-md-4 col-lg-3">
+                            <div class="thumbnail">
+                                <img class="img-carousel d-block " src="https://image.tmdb.org/t/p/w780/bg7tqaFmX6VvfGkXGFCHjoGRir5.jpg" alt="You">
+                                <img class="icon-tv translate-middle bg-transparent" src="./img/tv-icon-removebg-preview.png" alt="Icono de tv">
+                                <div class="caption">
+                                    <h4 class="text-light"><b> You</b></h4>
+                                    <p class="text-light">2018</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carusel-responsive col col-sm-12 col-md-4 col-lg-3">
+                            <div class="thumbnail">
+                                <img class="img-carousel d-block w-120" src="https://image.tmdb.org/t/p/w780/6fcXlNT890M1FVJQBRV0DL3EC4Z.jpg" alt="Mandalorian">
+                                <img class="icon-tv translate-middle bg-transparent" src="./img/tv-icon-removebg-preview.png" alt="Icono de tv">
+                                <div class="caption">
+                                    <h4 class="text-light">
+                                        <b> The Mandalorian </b></h4>
+                                    <p class="text-light">2019</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" carusel-responsive col col-sm-12 col-md-4 col-lg-3">
+                            <div class="thumbnail">
+                                <img class="img-carousel d-block " src="https://image.tmdb.org/t/p/w780/3gcfAQ2sBCqEAhPc5vJchACLpLi.jpg" alt="Picard">
+                                <img class="icon-tv  translate-middle bg-transparent" src="./img/tv-icon-removebg-preview.png" alt="Icono de tv">
+                                <div class="caption">
+                                    <h4 class="text-light"><b>Picard</b> </h4>
+                                    <p class="text-light">2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="carusel-responsive col col-sm-12 col-md-4 col-lg-3">
+                            <div class="thumbnail">
+                                <img class="img-carousel d-block " src="https://image.tmdb.org/t/p/w780/iq5L971DFW1SwLJdvl7OpPI1QeZ.jpg" alt="Record of Ragnarok">
+                                <img class="icon-tv  translate-middle bg-transparent" src="./img/tv-icon-removebg-preview.png" alt="Icono de tv">
+                                <div class="caption">
+                                    <h4 class="text-light"><b> Record of Ragnarok</b></h4>
+                                    <p class="text-light">2020</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carusel-responsive col-sm-12 col-md-4 col-lg-3">
+                            <div class="thumbnail">
+                                <img class="img-carousel d-block " src="https://image.tmdb.org/t/p/w780/ahS4r0ZYbNC85iTdMtcGojHJVgy.jpg" alt="The last of Us">
+                                <img class="icon-tv translate-middle bg-transparent" src="./img/tv-icon-removebg-preview.png" alt="Icono de tv">
+                                <div class="caption">
+                                    <h4 class="text-light"><b> The last of Us</b></h4>
+                                    <p class="text-light">2022.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carusel-responsive col-sm-12 col-md-4 col-lg-3">
+                            <div class="thumbnail">
+                                <img class="img-carousel d-block " src="https://image.tmdb.org/t/p/w780/9DpB6wC1iY5jxLz91RT8tIIsXaf.jpg" alt="Merlina">
+                                <img class="icon-tv  translate-middle bg-transparent" src="./img/tv-icon-removebg-preview.png" alt="Icono de tv">
+                                <div class="caption">
+                                    <h4 class="text-light"><b> Merlina</b></h4>
+                                    <p class="text-light">2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class=" carusel-responsive col-sm-12 col-md-3 col-lg-3">
+                            <div class="thumbnail">
+                                <img class="img-carousel d-block " src="https://image.tmdb.org/t/p/w780/6nQNLJEv4PgJlck3G4FIB4vJ99o.jpg" alt="1899">
+                                <img class="icon-tv  translate-middle bg-transparent" src="./img/tv-icon-removebg-preview.png" alt="Icono de tv">
+                                <div class="caption">
+                                    <h4 class="text-light"><b>1899</b></h4>
+                                    <p class="text-light">2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carusel-responsive  col-sm-12 col-md-3 col-lg-3">
+                            <div class="thumbnail">
+                                <img class="img-carousel d-block w-120" src="https://image.tmdb.org/t/p/w780/s1xnjbOIQtwGObPnydTebp74G2c.jpg" alt="The last of Us">
+                                <img class="icon-tv translate-middle   bg-transparent" src="./img/tv-icon-removebg-preview.png" alt="Icono de tv">
+                                <div class="caption">
+                                    <h4 class="text-light"><b> The last of Us</b></h4>
+                                    <p class="text-light">2022.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carusel-responsive col-sm-12 col-md-3 col-lg-3">
+                            <div class="thumbnail">
+                                <img class="img-carousel d-block " src="https://image.tmdb.org/t/p/w780/q3UGWifvIpdey1T2efX4dSmbZpU.jpg" alt="From">
+                                <img class="icon-tv translate-middle bg-transparent" src="./img/tv-icon-removebg-preview.png" alt="Icono de tv">
+                                <div class="caption">
+                                    <h4 class="text-light"><b>From</b></h4>
+                                    <p class="text-light">2022</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+    </article>
+
+
+</section>
+<br>
+<hr class="hr_class">
+<section>
+    <article class="container">
+        <div class="banner banner-animated ">
+            <a href="https://rollingcodeschool.com/" target="_blank"><img src="./img/Rolling code.png" alt="Banner" class="banner-img">
+            </a>
+        </div>
+
+
+    </article>
+    <br>
+    <br>
+    <hr class="hr_class">
+    <!-- Peliculas  -->
+    <h2 class="texto-Series fs-1" id="id_Pelis"><b> Todas las Peliculas</b></h2>
+    <article class="mr-3">
+        <div class="container">
+            <div class="row">
+                <div class="pelis-col  pelis-col col-sm-3 col-md-3 col-lg-2">
+                    <div class="card ">
+                        <a href="error404.html" target="_blank"> <img class="card-img-top" src="https://image.tmdb.org/t/p/w185/vThe85YlGE5r7fqEVFePETqnWzk.jpg" alt="Doctor Strange"></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Doctor Strange Multiverso</h5>
+                            <p class="card-text text-light">May. 04, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pelis-col  pelis-col col-sm-3 col-md-3 col-lg-2">
+                    <div class="card">
+                        <a href="error404.html" target="_blank"><img class="card-img-top" src="https://image.tmdb.org/t/p/w185/osYbtvqjMUhEXgkuFJOsRYVpq6N.jpg" alt="Spider-Man"></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Spider-Man: No Way Home</h5>
+                            <p class="card-text text-light">Dec. 15, 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pelis-col  pelis-col col-sm-3 col-md-3 col-lg-2">
+                    <div class="card">
+                        <a href="error404.html" target="_blank"><img class="card-img-top" src="https://image.tmdb.org/t/p/w185/lR11JiTpl76YNnH65pSVE1XSm8Q.jpg" alt="Liga de la Justicia"></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Liga de la Justicia </h5>
+                            <p class="card-text text-light">Nov.15,2017</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pelis-col  pelis-col col-sm-3 col-md-3 col-lg-2">
+                    <div class="card">
+                        <a href="error404.html" target="_blank"><img class="card-img-top" src="https://image.tmdb.org/t/p/w185/jTNYlTEijZ6c8Mn4gvINOeB2HWM.jpg" alt="Imagen 4"></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Ant-Man y la Avispa </h5>
+                            <p class="card-text text-light">Feb. 10,2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pelis-col  pelis-col col-sm-3 col-md-3 col-lg-2">
+                    <div class="card">
+                        <a href="error404.html" target="_blank"><img class="card-img-top" src="https://image.tmdb.org/t/p/w185/fcFMd3HdyX7r5gtFwVnn2qr5Yhq.jpg" alt="Creed"></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Creed III mundo del boxeo</h5>
+                            <p class="card-text text-light">Mar.01,2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pelis-col  pelis-col col-sm-3 col-md-3 col-lg-2">
+                    <div class="card">
+                        <a href="error404.html" target="_blank"><img class="card-img-top" src="https://image.tmdb.org/t/p/w185/kUAG4ZQcsNbRyiPyAr3hLdsVgAq.jpg" alt="Avatar: El sentido del agua"></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-light">Avatar:Sentido del agua</h5>
+                            <p class="card-text text-light">Dec. 14, 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+</section>
+<br>
+<hr class="hr_class">
+
+<section class="container my-5">
+    <h2 class="texto-Series fs-1 mt-3"><b>Ultimas Peliculas agregadas</b></h2>
+    <div class="row" id='bloqueDeSeriesPeliculas'>
+    </div>
+</section>
+<br>
+<hr class="hr_class">
+<footer>
+    <div id="footerIdem"></div>
+</footer>
+
+<script src="./js/app.js"></script>
+<script src="./js/admin.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
