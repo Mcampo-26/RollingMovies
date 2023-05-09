@@ -33,7 +33,7 @@ function navBar() {
                 <a class="nav-link" href="aboutUs.html">About Us</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="log_in.html">Log In</a>
+                <a class="nav-link" href="log_1in.html">Log In</a>
               </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" href="sign_in.html">Sign In</a>
