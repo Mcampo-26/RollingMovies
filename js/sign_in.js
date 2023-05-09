@@ -33,7 +33,7 @@ function registrarUsuario(){
 
     Swal.fire(
         'Registro Exitoso',
-        'Ahora puedes ingresar a tu cuenta de Netflix',
+        'Ahora puedes ingresar a tu cuenta de Rolling Movies',
         'success'
     );
 }
