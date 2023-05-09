@@ -10,7 +10,7 @@ function navBar() {
   
     let navBarContenido = `
       <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <nav class="navbar navbar-expand-md navbar-dark bg-black fixed-top">
           <a href="index_2.html"><img class="navbar-brand" src="./img/30-removebg-preview.png" alt="Rolling-Movies"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="${navOpen}" aria-label="Toggle navigation" id="navbar-toggler" onclick="Navbar()">
             <span class="navbar-toggler-icon"></span>
@@ -34,7 +34,7 @@ function navBar() {
               </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" href="login_1.html">Log In</a>
-              </li>git add
+              </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" href="sign_in.html">Sign In</a>
               </li>
