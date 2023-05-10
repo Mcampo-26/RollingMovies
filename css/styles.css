@@ -6,9 +6,15 @@
     font-weight: 400;
 }
 
-h1 {
-    padding-top: 3em;
+img {
+    max-width: auto;
 }
+
+h1 {
+    font-weight: 30em !important;
+}
+
+h5 {}
 
 .mri {
     margin-left: 5em !important;
@@ -42,11 +48,7 @@ section.cabecera {
     font-size: 3em;
     font-weight: 900;
     color: #00081D;
-}
-
-.sectiontv1 {
-    border-bottom: 5px solid black;
-    max-width: 100%;
+    margin-top: 2.2em;
 }
 
 .sectiontv {
@@ -141,72 +143,4 @@ section.cabecera {
 
 .pie .espacio {
     width: 100px;
-}
-
-@media only screen and (max-width: 1199px) and (min-width: 768px) {
-    section {
-        border-bottom: 6px solid #222;
-    }
-    .presentacion input {
-        width: 400px;
-    }
-    .presentacion button {
-        width: 120px;
-        font-size: 1rem;
-    }
-    .contPreguntas input {
-        width: 400px;
-    }
-    .contPreguntas button {
-        width: 120px;
-        font-size: 1rem;
-    }
-    .pieContenido {
-        width: 900px;
-    }
-}
-
-
-/* Reglas CSS para dispositivos de pantalla pequeña */
-
-@media only screen and (max-width:694px) {
-    section {
-        border-bottom: 4px solid #222;
-    }
-    .titlecabecera {
-        font-size: 3rem;
-    }
-    .presentacion input {
-        width: 80%;
-        margin-bottom: 10px;
-    }
-    .presentacion button {
-        width: 100%;
-        margin-bottom: 10px;
-        font-size: 1.2rem;
-    }
-    .preguntas h2 {
-        font-size: 25px;
-    }
-    .contPreguntas input {
-        width: 80%;
-        margin-bottom: 10px;
-    }
-    .contPreguntas button {
-        width: 100%;
-        margin-bottom: 10px;
-        font-size: 1.2rem;
-    }
-    .pieContenido {
-        width: 100%;
-        flex-direction: column;
-        text-align: center;
-    }
-    .pie {
-        margin-bottom: 20px;
-    }
-    img {
-        max-width: 180%;
-        height: auto;
-    }
 }
