@@ -44,6 +44,10 @@ function registrarUsuario() {
     Swal.fire(
         'Registro Exitoso',
         'Ahora puedes ingresar a tu cuenta de Rolling Movies',
-        'success'
-    );
+        'success').then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = "home.html";
+            }
+        });
+  
 }
