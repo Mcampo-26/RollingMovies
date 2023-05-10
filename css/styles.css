@@ -64,6 +64,13 @@ section.cabecera {
     font-size: 35px;
 }
 
+hr {
+    width: 100%;
+    align-items: center;
+    height: 1em;
+    background-color: #3a85a5;
+}
+
 .contPreguntas {
     width: 1200px;
     margin: auto;
