@@ -6,18 +6,21 @@
 
 body {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-AWwl-HMRewNxI1FDBsFGbJJH23bJuMrQzm3iTA3kyqTX-91YS0v6dXas3to4A5dOuDQ&usqp=CAU");
+    background-size: cover;
+    background-position: center;
 }
 
 .form-container {
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 
 .mail {
     display: flex;
     margin-bottom: 0.2em !important;
     font-size: 1.3em !important;
-    color: rgb(253, 253, 253);
+    color: rgb(197, 194, 194);
     padding-left: 1em !important;
 }
 
@@ -47,27 +50,20 @@ body {
 }
 
 .form-title {
-    margin-top: 2.5em !important;
-}
-
-.help-link {
-    margin-top: 10em !important;
+    margin-top: 5em !important;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: rgb(219, 130, 13);
 }
 
 .crear {
-    color: rgb(185, 197, 207);
-    width: 10em;
+    width: auto;
     background-color: rgb(204, 40, 40) !important;
     padding-bottom: 0.1em;
     margin-top: 1em;
     border-radius: 1em;
 }
 
-.help-link {
-    margin-right: 23em;
-}
-
-.cont-in-sesion.crear {
+.botonCreate {
     display: flex;
     justify-content: center;
     align-items: center;

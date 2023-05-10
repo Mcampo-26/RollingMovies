@@ -8,38 +8,27 @@
     <title>Rolling Movies</title>
     <link rel="shortcut icon" href="./img/favico.png" />
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="./app.js" defer></script>
+    <link rel="shortcut icon" href="./img/tv-icon-removebg-preview.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="./js/navBar.js" defer></script>
+    <script src="./js/footer.js" defer></script>
+    <script src="./app.js" defer></script>
+    <script src="https://kit.fontawesome.com/e8f8c69e4a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e8f8c69e4a.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.15.5/dist/sweetalert2.all.min.js"></script>
 </head>
 
+
 <body>
+    <div id="navBarIdem"></div>
+
     <div class="imgbackground"></div>
-    <section class="cabecera">
-        <nav>
-            <div class="logo pt-3 ">
-                <img width="250px" src="./img/30-removebg-preview.png" alt="logoRollinMovies">
-            </div>
-            <div class="login">
-                <div>
-                    <select>
-                            <option value="Español">Español</option>
-                            <option value="English">English</option>
-                          </select>
-                </div>
-                <div>
-                    <button><b>Iniciar sesión</b></button>
-                </div>
-            </div>
-        </nav>
+    <section class="cabecera imgbackground">
+
         <div class="container presentacion">
             <h1 class="titlecabecera"><b>Películas y series <br> ilimitadas y mucho más</b></h1>
             <h3 class="mb-4 mt-3" style="font-weight: 600;">Disfruta donde quieras. Cancela cuando quieras.</h3>
-            <h5 style="font-weight: 600;">¿Quieres ver Rolling Movies ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Rolling Movies.</h5>
-            <div>
-                <input type="email" placeholder="Email">
-                <button>Comenzar ></button>
-            </div>
         </div>
     </section>
 
@@ -49,13 +38,13 @@
                 <h1 style="font-weight: 800;">Disfruta en tu TV</h1>
                 <h5 style="font-weight: 600;">Ve en smart TV, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más.</h5>
             </div>
-            <div class="d-flex flex-column justify-content-center align-items-center" style="margin: 80px ;">
-                <img width="450px" src="./img/img1.png" alt="logonetlfix">
+            <div class="d-flex flex-column justify-content-center align-items-center img-fluid">
+                <img width="100%" src="./img/img1.png" alt="logonetlfix">
             </div>
         </div>
         <div class="d-flex container sectiontv1">
-            <div class="d-flex flex-column justify-content-center align-items-center" style="margin: 80px ;">
-                <img width="450px" src="./img/img2.png" alt="logonetlfix">
+            <div class="d-flex flex-column justify-content-center align-items-center img-fluid">
+                <img width="100%" src="./img/img2.png" alt="logonetlfix">
             </div>
             <div class="d-flex flex-column justify-content-center align-items-start p-5">
                 <h1 style="font-weight: 800;">Disfruta donde quieras</h1>
@@ -67,13 +56,13 @@
                 <h1 style="font-weight: 800;">Crea perfiles para niños</h1>
                 <h5 style="font-weight: 600;">Los niños vivirán aventuras con sus personajes favoritos en un espacio diseñado exclusivamente para ellos, sin costo con tu membresía.</h5>
             </div>
-            <div class="d-flex flex-column justify-content-center align-items-center" style="margin: 80px ;">
-                <img width="450px" src="./img/img3.png" alt="logonetlfix">
+            <div class="d-flex flex-column justify-content-center align-items-center img-fluid">
+                <img width="100%" src="./img/img3.png" alt="logonetlfix">
             </div>
         </div>
-        <div class="d-flex container sectiontv1">
-            <div class="d-flex flex-column justify-content-center align-items-center" style="margin: 80px ;">
-                <img width="450px" src="./img/img4.png" alt="logonetlfix">
+        <div class="d-flex container ">
+            <div class="d-flex flex-column justify-content-center align-items-center img-fluid">
+                <img width="100%" src="./img/img4.png" alt="logonetlfix">
             </div>
             <div class="d-flex flex-column justify-content-center align-items-start p-5">
                 <h1 style="font-weight: 800;">Descarga tus series para verlas offline</h1>
@@ -82,7 +71,7 @@
         </div>
     </section>
 
-    <section class="preguntas sectionpreguntas">
+    <section class="preguntas sectionpreguntas pb-5 pt-5">
         <div class="contPreguntas">
             <h2>Preguntas frecuentes</h2>
             <br>
@@ -102,7 +91,7 @@
             <div class="pregunta">
                 <p>¿Dónde puedo ver Rolling Movies?</p>
                 <div class="respuesta">
-                    <p>VDisfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Rolling Movies para ver contenido al instante a través de Rolling Movies.com desde tu computadora personal o en cualquier dispositivo con conexión a internet que
+                    <p>Disfruta donde quieras, cuando quieras. Inicia sesión en tu cuenta de Rolling Movies para ver contenido al instante a través de Rolling Movies.com desde tu computadora personal o en cualquier dispositivo con conexión a internet que
                         cuente con la app de Rolling Movies, como smart TV, smartphones, tablets, reproductores multimedia y consolas de juegos. <br><br> Además, puedes descargar tus series favoritas con iOS, Android o la app para Windows 10. Con la función
                         de descarga, puedes ver donde vayas y sin conexión a internet. Lleva Rolling Movies contigo adonde sea.</p>
                 </div>
@@ -126,24 +115,21 @@
                         controles parentales protegidos por PIN que te permiten restringir el contenido que pueden ver los niños en función de la clasificación por edad y bloquear determinados títulos que no quieras que los niños vean.</p>
                 </div>
             </div>
-            <div class="mt-4">
-                <input type="email" placeholder="Email">
-                <button>Comenzar ></button>
-            </div>
-            <div class="mt-4 mb-4">
-                <h3>¿Quieres ver Rolling Movies ya? Ingresa tu email para crear una cuenta de Rolling Movies o acceder a la tuya.</h3>
-            </div>
         </div>
     </section>
 
+    <footer>
+        <div id="footerIdem"></div>
+    </footer>
 
 
-
+    <script src="js/jquery-3.6.0.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
