@@ -5,7 +5,9 @@
 }
 
 .error404 {
-    margin-top: 2em;
+    width: 100% !important;
+    height: 100%;
+    margin-top: 3em !important;
     max-width: 50%;
     max-height: 50%;
 }
