@@ -46,7 +46,7 @@ function registrarUsuario() {
         'Ahora puedes ingresar a tu cuenta de Rolling Movies',
         'success').then((result) => {
             if (result.isConfirmed) {
-                window.location.href = "home.html";
+                window.location.href = "login_1.html";
             }
         });
   
