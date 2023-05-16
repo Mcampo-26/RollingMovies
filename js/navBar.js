@@ -30,7 +30,7 @@ function navBar() {
                 <a class="nav-link" href="Contacto.html">Contacto</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="aboutUs.html">Nocotros</a>
+                <a class="nav-link" href="aboutUs.html">Nosotros</a>
               </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" href="login_1.html">iniciar sesion</a>
