@@ -18,7 +18,10 @@ function renderizarInfo(){
                     <p class="card-text text-light">${elementosSeriesPeliculas.descripcion}</p>
 
                     <a href="error404.html" target="_blank" class="btn btn-primary bg bg-dark">Ver Pelicula</a>
-                    </div>
+
+                    <a href="error404.html" target="_blank" class="btn btn-primary bg bg-dark">go to</a>
+
+                </div>
                 </div>
             </div>
             
