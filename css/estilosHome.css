@@ -43,7 +43,7 @@ p {
 }
 
 .texto-Series {
-    color: rgb(246, 240, 240) !important;
+    color: rgb(211, 205, 205) !important;
     margin-left: 0.5em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -86,7 +86,13 @@ p {
 
 .img-card-crud {
     max-width: 100%;
+
+    width: 11.8em !important;
+    height: 15em !important;
+    object-fit: fill;
+
     height: 16em !important;
+
 }
 
 body {
@@ -107,6 +113,34 @@ body {
     transition: all 400ms ease;
     transform: translateY(-2%);
 }
+
+
+.banner img {
+    width: 35em !important;
+    height: 9em;
+    border-radius: 10px;
+    padding-right: 5em !important;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateX(100px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.banner-animated {
+    animation-name: move;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 
 .hr_class {
     margin-top: 1em!;
