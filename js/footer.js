@@ -69,9 +69,7 @@ body {
 }
 
 .footer {
-    background-color:dark;    
-    
-   
+    background-color: #333
 }
 
 .footer-row {
@@ -103,11 +101,15 @@ body {
     transition: all .3s ease;
 }
 
-.footer-links ul li a:hover {
-    color: beige;
+.footer-links ul  li:hover a {
+    color: beige !important;
     padding-left: 6px;
 }
 
+.social-link a:hover {
+    background-color: beige;
+    color:rgb(40, 179, 204);
+  }
 .social-link a {
     display: inline-block;
     min-height: 40px;

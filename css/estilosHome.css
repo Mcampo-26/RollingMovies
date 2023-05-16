@@ -27,6 +27,7 @@ p {
 }
 
 .img-carousel {
+    display: block !important;
     max-width: 140%;
     width: 23em!important;
     height: 10em !important;
@@ -87,7 +88,7 @@ p {
 .img-card-crud {
     max-width: 100%;
     width: 11.8em !important;
-    height: 19em !important;
+    height: 16em !important;
 }
 
 body {
@@ -113,23 +114,24 @@ body {
     width: 35em !important;
     height: 9em;
     border-radius: 10px;
+    padding-right: 5em !important;
 }
 
 @keyframes move {
     0% {
-        transform: translateX(0);
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(450px);
+        transform: translateX(100px);
     }
     100% {
-        transform: translateX(50px);
+        transform: translateX(0px);
     }
 }
 
 .banner-animated {
     animation-name: move;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -141,13 +143,20 @@ body {
 
 @media (max-width: 770px) {
     .carusel-responsive {
-        margin-left: 8em;
+        margin-left: 2em !important;
     }
 }
 
-@media (max-width: 496px) {
+@media (min-width: 766x) {
     .carusel-responsive {
-        margin-left: 5em;
+        margin-left: 10em !important;
+    }
+}
+
+@media (min-width: 380px) {
+    .pelis-col {
+        flex: 0 0 75%;
+        max-width: 75%;
     }
 }
 
@@ -168,5 +177,44 @@ body {
 @media (max-width: 562px) {
     .pelis-col {
         margin-left: 5em;
+    }
+}
+
+
+/*   aquie va el codigo del banner*/
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /* Altura del banner */
+    overflow: hidden;
+}
+
+.banner-animated {
+    animation: slide 4s infinite;
+    /* Duración de la animación y repetición infinita */
+}
+
+.banner-img {
+    max-width: 100%;
+    /* Ancho máximo del banner */
+    height: auto;
+    /* Altura automática del banner */
+}
+
+
+/* Animación */
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(calc(100vw - 85%));
+    }
+    100% {
+        transform: translateX(0);
     }
 }
