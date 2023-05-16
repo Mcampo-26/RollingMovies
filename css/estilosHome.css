@@ -171,9 +171,7 @@ body {
 
 .banner-img {
     max-width: 100%;
-    /* Ancho máximo del banner */
     height: auto;
-    /* Altura automática del banner */
 }
 
 
@@ -184,7 +182,7 @@ body {
         transform: translateX(0);
     }
     50% {
-        transform: translateX(calc(80vw - 120%));
+        transform: translateX(calc(80vw - 100%));
     }
     100% {
         transform: translateX(0);
