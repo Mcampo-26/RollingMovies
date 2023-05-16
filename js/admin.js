@@ -2,8 +2,30 @@ function Limpiar() {
     document.getElementById("form").reset();
 }
 
+ Nav-bar
+
+
+function elementoEditado(evento){
+    if(evento){
+        Swal.fire(
+            'Contenido Modificado',
+            'El contenido se modificó correctamente',
+            'success'
+        );
+    }
+}
+
+function Limpiar(){
+    document.getElementById("form").reset();
+}
+
+
+function elementoEditado(evento){
+    if(evento){
+=======
 function elementoEditado(evento) {
     if (evento) {
+
         Swal.fire(
             'Contenido Modificado',
             'El contenido se modificó correctamente',
@@ -22,6 +44,13 @@ function AgregarElemento() {
 
     // Validar campos vacíos
     if (nombre === "" || categoria === "" || descripcion === "" || imagen === "") {
+
+        Swal.fire(
+            'Oops',
+            'debe llenar todos los campos',
+            'error'
+        );
+
         Swal.fire({
             title: 'Oops',
             text: 'Debe llenar todos los campos',
@@ -53,12 +82,18 @@ function AgregarElemento() {
             camposVacios = true;
             break;
         }
+
+
         $(".modal").modal("show"); 
+
 
     }
     
     if (camposVacios) {
         alert("Debe llenar todos los campos");
+
+        return; // Detener la ejecución si hay campos vacíos
+
         Swal.fire({
             title: 'Oops',
             text: 'Debe llenar todos los campos',
@@ -67,6 +102,7 @@ function AgregarElemento() {
         });
        modal("show"); 
       
+
     }
 
     contenedorSeriesPeliculas.push(elementosSeriesPeliculas);
