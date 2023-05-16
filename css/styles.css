@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    max-width: auto;
+}
+
+h1 {
+    font-weight: 30em !important;
+}
+
+h5 {}
+
+.mri {
+    margin-left: 5em !important;
+}
+
+.mt1 {
+    padding-top: -20000em !important;
+}
+
+.presentacion {
+    text-align: start;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: image(¡);
+}
+
+.imgbackground {
+    background: url(../img/NetflixBackground.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+section.cabecera {
+    background-image: linear-gradient(to right, rgba(20, 5, 35, 0.9) 0%, rgba(20, 5, 35, 0.5) 60%, rgba(20, 5, 35, 0.5) 100%);
+}
+
+.titlecabecera {
+    font-size: 3em;
+    font-weight: 900;
+    color: #00081D;
+    margin-top: 2.2em;
+}
+
+.sectiontv {
+    background-image: radial-gradient(circle at 100% 100%, #003225 0, #00322d 3.33%, #003235 6.67%, #00323d 10%, #003244 13.33%, #00324b 16.67%, #003251 20%, #003156 23.33%, #00305a 26.67%, #002f5d 30%, #002d60 33.33%, #002b61 36.67%, #002960 40%, #00265f 43.33%, #03235d 46.67%, #1f1f59 50%, #2e1b54 53.33%, #39164f 56.67%, #421049 60%, #490942 63.33%, #4e033b 66.67%, #520034 70%, #55002c 73.33%, #560025 76.67%, #57001d 80%, #560016 83.33%, #55020d 86.67%, #530801 90%, #500e00 93.33%, #4c1300 96.67%, #481800 100%);
+}
+
+.sectionpreguntas {
+    background-color: #00081D;
+}
+
+.preguntas h2 {
+    font-weight: bold;
+    font-size: 35px;
+}
+
+hr {
+    width: 100%;
+    align-items: center;
+    height: 1em;
+    background-color: #3a85a5;
+}
+
+.contPreguntas {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.contPreguntas div {
+    text-align: left;
+    font-size: 25px;
+}
+
+.pregunta {
+    background: #132144;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.respuesta {
+    background: #132144;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.pregunta p,
+.respuesta p {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.pregunta:hover .respuesta {
+    max-height: 1000px;
+}
+
+.respuesta {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.contPreguntas input {
+    height: 50px;
+    width: 500px;
+    border-radius: 2px 0px 0px 2px;
+    border: solid 1px rgba(191, 187, 187, 0.5);
+    padding-left: 11px;
+    color: #ffff;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contPreguntas button {
+    height: 50px;
+    width: 150px;
+    background: #e50914;
+    padding: px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: solid #d30f18;
+    border-radius: 5px;
+}
+
+.contPreguntas h3 {
+    font-size: 15px;
+}
+
+.pieContenido {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.pie p {
+    padding: 7px;
+}
+
+.pie .espacio {
+    width: 100px;
+}
