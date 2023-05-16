@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.avatar-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.2em !important;
+    background: rgb(99, 98, 98);
+    background-size: cover;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img {
+    width: 48%;
+    height: 48%;
+    padding-top: 3em !important;
+}
