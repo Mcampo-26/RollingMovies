@@ -16,7 +16,7 @@ function renderizarInfo(){
                 <div class="card-body  bg-black">
                     <h5 class="card-title text-light">${elementosSeriesPeliculas.nombre}</h5>
                     <p class="card-text text-light">${elementosSeriesPeliculas.descripcion}</p>
-                    <a href="error404.html" target="_blank" class="btn btn-primary bg bg-dark">go to</a>
+                    <a href="error404.html" target="_blank" class="btn btn-primary bg bg-dark">ver pelicula</a>
                 </div>
                 </div>
             </div>
