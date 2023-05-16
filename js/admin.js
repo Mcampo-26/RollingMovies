@@ -1,19 +1,9 @@
-function Limpiar(){
+function Limpiar() {
     document.getElementById("form").reset();
 }
 
-function elementoAgregado(evento){
-    if(evento){
-        Swal.fire(
-            'Contenido Agregado',
-            'El contenido se agregó correctamente',
-            'success'
-        );
-    }
-}
-
-function elementoEditado(evento){
-    if(evento){
+function elementoEditado(evento) {
+    if (evento) {
         Swal.fire(
             'Contenido Modificado',
             'El contenido se modificó correctamente',
@@ -23,28 +13,73 @@ function elementoEditado(evento){
 }
 
 function AgregarElemento() {
-	event.preventDefault();
+    event.preventDefault();
 
     let nombre = document.getElementById("nombre").value;
     let categoria = document.getElementById("categoria").value;
     let descripcion = document.getElementById("descripcion").value;
     let imagen = document.getElementById("imagen").value;
 
-	let elementosSeriesPeliculas = {
+    // Validar campos vacíos
+    if (nombre === "" || categoria === "" || descripcion === "" || imagen === "") {
+        Swal.fire({
+            title: 'Oops',
+            text: 'Debe llenar todos los campos',
+            icon: 'error',
+        }).then((result) => {
+            if (result.isConfirmed) {
+                // Enfocar el campo de entrada
+                $(".modal").modal("show"); 
+            }
+        });
+       
+        return; // Detener la ejecución si hay campos vacíos
+    }
+
+    let elementosSeriesPeliculas = {
         codigo: Codigo(),
-		nombre: nombre,
-		categoria: categoria,
+        nombre: nombre,
+        categoria: categoria,
         descripcion: descripcion,
         imagen: imagen
-	};
+    };
 
-	let contenedorSeriesPeliculas = JSON.parse(localStorage.getItem("SeriesPeliculasKey")) || [];
+    let contenedorSeriesPeliculas = JSON.parse(localStorage.getItem("SeriesPeliculasKey")) || [];
+    
+    // Validar campos vacíos nuevamente (por si acaso)
+    let camposVacios = false;
+    for (let key in elementosSeriesPeliculas) {
+        if (elementosSeriesPeliculas[key] === "") {
+            camposVacios = true;
+            break;
+        }
+        $(".modal").modal("show"); 
+
+    }
+    
+    if (camposVacios) {
+        alert("Debe llenar todos los campos");
+        Swal.fire({
+            title: 'Oops',
+            text: 'Debe llenar todos los campos',
+            icon: 'error',
+            
+        });
+       modal("show"); 
+      
+    }
+
     contenedorSeriesPeliculas.push(elementosSeriesPeliculas);
-	localStorage.setItem("SeriesPeliculasKey", JSON.stringify(contenedorSeriesPeliculas));
+    localStorage.setItem("SeriesPeliculasKey", JSON.stringify(contenedorSeriesPeliculas));
 
-    document.getElementById("form").reset(); 
+    document.getElementById("form").reset();
     renderSeriesPeliculas();
-}; 
+    Swal.fire(
+        'Contenido Agregado',
+        'El contenido se agregó correctamente',
+        'success'
+    );
+}
 
 function Codigo() {
 	let caracteres = "0123456789";

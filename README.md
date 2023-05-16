@@ -4,8 +4,8 @@ LocalStorage. _
 ## Demo del Proyecto
 _mira una demo del proyecto [Rolling Movies ](https://trello.com/mauriciocampo1/boards) en https://marvelous-kataifi-c567ec.netlify.app/
  
-## Pre-requisitos
-_aqui  especifico si tengo que instalar algo previo para usar este repo_
+
+
 ## Pasos a seguir para usar el proyecto
 _Para utilizar una copia del  proyecto ,ejecutar el siuiente comenado en una terminal:_
 
