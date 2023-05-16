@@ -8,8 +8,8 @@ function renderizarInfo(){
     for(let elementosSeriesPeliculas of contenedorSeriesPeliculas) {
 
          let columna = `         
-            <div class="pelis-col  pelis-col col-sm-3 col-md-3 col-lg-2">
-            <div class="card card-crud">                
+            <div class="pelis-col col-sm-3 col-md-3 col-lg-2">
+            <div class="card card-crud  ">                
                     <div>
                         <img src="${elementosSeriesPeliculas.imagen}" class="card-img-top img-card-crud " alt="${elementosSeriesPeliculas.nombre}" >
                     </div>              

@@ -37,8 +37,8 @@ p {
     position: relative;
     width: 30px !important;
     height: 25px!important;
-    bottom: 1em !important;
-    left: 16em!important;
+    bottom: 1.5em !important;
+    left: 20em!important;
     background-color: black !important;
 }
 
@@ -75,19 +75,18 @@ p {
     max-width: 100%;
     max-height: 100%;
     width: 12em;
-    height: 25em !important;
+    height: 25em;
     margin-top: 5%;
 }
 
 .card-crud {
     max-width: 100%;
-    min-height: auto;
+    margin-top: 5%;
 }
 
 .img-card-crud {
-    width: 10.6em!important;
+    max-width: 100%;
     height: 16em !important;
-    object-fit: cover;
 }
 
 body {
@@ -142,8 +141,8 @@ body {
 
 @media (min-width: 992px) {
     .pelis-col {
-        flex: 0 0 25%;
-        max-width: 25%;
+        flex: 0 0 35%;
+        max-width: 40%;
     }
 }
 
