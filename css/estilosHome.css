@@ -43,7 +43,7 @@ p {
 }
 
 .texto-Series {
-    color: rgb(246, 240, 240) !important;
+    color: rgb(211, 205, 205) !important;
     margin-left: 0.5em;
     margin-top: 1em;
     margin-bottom: 1em;
@@ -88,7 +88,8 @@ p {
 .img-card-crud {
     max-width: 100%;
     width: 11.8em !important;
-    height: 19em !important;
+    height: 15em !important;
+    object-fit: fill;
 }
 
 body {
@@ -131,7 +132,7 @@ body {
 
 .banner-animated {
     animation-name: move;
-    animation-duration: 5s;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
