@@ -1,3 +1,11 @@
+document.getElementById("login-form").reset();
+
+function redirigirUsuario() {
+    window.location.href = 'Home.html';
+}
+function redirigiAdmin() {
+    window.location.href = 'admin.html';
+}
 function logearUsuario() {
     event.preventDefault();
 
