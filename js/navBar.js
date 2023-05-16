@@ -18,25 +18,25 @@ function navBar() {
           <div class="collapse navbar-collapse ${navOpen ? 'show' : ''}" id="navbarNav">
             <ul class="navbar-nav col-sm-auto text-center justify-content-around  flex-grow-1 ml-auto">
               <li class="nav-item mr-auto">
-                <a class="nav-link" onClick="cartelDebeIniciarSesion()">home</a>
+                <a class="nav-link" onClick="cartelDebeIniciarSesion()">Inicio</a>
               </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" onClick="cartelDebeIniciarSesion()">Series</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" onClick="cartelDebeIniciarSesion()">Movies</a>
+                <a class="nav-link" onClick="cartelDebeIniciarSesion()">Peliculas</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="Contacto.html">Contact</a>
+                <a class="nav-link" href="Contacto.html">Contacto</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="aboutUs.html">About Us</a>
+                <a class="nav-link" href="aboutUs.html">Nocotros</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="login_1.html">Log In</a>
+                <a class="nav-link" href="login_1.html">iniciar sesion</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="sign_in.html">Sign In</a>
+                <a class="nav-link" href="sign_in.html">crear cuenta</a>
               </li>
             </ul>
           </div>
@@ -88,25 +88,25 @@ function navBar() {
           <div class="collapse navbar-collapse ${navOpen ? 'show' : ''}" id="navbarNav">
             <ul class="navbar-nav col-sm-auto text-center justify-content-around  flex-grow-1 ml-auto">
               <li class="nav-item mr-auto">
-                <a class="nav-link" onClick="cartelDebeIniciarSesion()">home</a>
+                <a class="nav-link" onClick="cartelDebeIniciarSesion()">Inicio</a>
               </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" onClick="cartelDebeIniciarSesion()">Series</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" onClick="cartelDebeIniciarSesion()">Movies</a>
+                <a class="nav-link" onClick="cartelDebeIniciarSesion()">Peliculas</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="Contacto.html">Contact</a>
+                <a class="nav-link" href="Contacto.html">Contacto</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="aboutUs.html">About Us</a>
+                <a class="nav-link" href="aboutUs.html">Nosotros</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="login_1.html">Log In</a>
+                <a class="nav-link" href="login_1.html">Iniciar Sesion</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="sign_in.html">Sign In</a>
+                <a class="nav-link" href="sign_in.html">Crear Cuenta</a>
               </li>
             </ul>
           </div>
@@ -158,25 +158,25 @@ function navBar() {
           <div class="collapse navbar-collapse ${navOpen ? 'show' : ''}" id="navbarNav">
             <ul class="navbar-nav col-sm-auto text-center justify-content-around  flex-grow-1 ml-auto">
               <li class="nav-item mr-auto">
-                <a class="nav-link" href="Home.html">home</a>
+                <a class="nav-link" href="Home.html">Inicio</a>
               </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" href="Home.html#idSeries">Series</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="Home.html#id_Pelis">Movies</a>
+                <a class="nav-link" href="Home.html#id_Pelis">Peliculas</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="Contacto.html">Contact</a>
+                <a class="nav-link" href="Contacto.html">Contacto</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="aboutUs.html">About Us</a>
+                <a class="nav-link" href="aboutUs.html">Nosotros</a>
               </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" href="admin.html">Admin</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="#" onClick="logOut()">Log Out</a>
+                <a class="nav-link" href="#" onClick="logOut()">cerrar sesion</a>
               </li>
             </ul>
           </div>
@@ -227,22 +227,22 @@ function navBar() {
           <div class="collapse navbar-collapse ${navOpen ? 'show' : ''}" id="navbarNav">
             <ul class="navbar-nav col-sm-auto text-center justify-content-around  flex-grow-1 ml-auto">
               <li class="nav-item mr-auto">
-                <a class="nav-link" href="Home.html">home</a>
+                <a class="nav-link" href="Home.html">Inicio</a>
               </li>
               <li class="nav-item mr-3">
                 <a class="nav-link" href="Home.html#idSeries">Series</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="Home.html#id_Pelis">Movies</a>
+                <a class="nav-link" href="Home.html#id_Pelis">Peliculas</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="Contacto.html">Contact</a>
+                <a class="nav-link" href="Contacto.html">Contacto</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="aboutUs.html">About Us</a>
+                <a class="nav-link" href="aboutUs.html">Nosotros</a>
               </li>
               <li class="nav-item mr-3">
-                <a class="nav-link" href="#" onClick="logOut()">Log Out</a>
+                <a class="nav-link" href="#" onClick="logOut()">cerrar sesion</a>
               </li>
             </ul>
           </div>
