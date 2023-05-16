@@ -94,7 +94,7 @@ function renderSeriesPeliculas() {
     
     let contenedorSeriesPeliculas = JSON.parse(localStorage.getItem("SeriesPeliculasKey")) || [];
     let contenidoInvertido =  contenedorSeriesPeliculas.reverse();  
-    console.log(contenidoInvertido)
+    
 
     let tabla = document.getElementById("tablaSeriesPeliculas"); 
     let filaSeriesPeliculas = "";
